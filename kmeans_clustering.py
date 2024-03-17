@@ -30,7 +30,7 @@ plt.show()
 # Applying KMeans to the dataset with the optimal number of cluster
 
 kmeans=KMeans(n_clusters= 5, init = 'k-means++', max_iter = 300, n_init = 10, random_state = 0)
-y_kmeans = kmeans.fit_predict(X)
+Y_Kmeans = kmeans.fit_predict(X)
 
 # Visualising the clusters
 
